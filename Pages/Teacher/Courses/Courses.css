@@ -1,0 +1,132 @@
+
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  .main-container {
+      top: 50px;
+      left: 300px;
+      
+  }
+  
+  /* CARDS */
+  
+   .cardcourse {
+    position: relative;
+    top: -650px;
+    left: 500px;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 25px;
+    min-height: 30px;
+    display: grid;
+    grid-template-columns: 500px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .cardcourse:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+   .cardcourse__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(77, 4, 245, 0.6);
+    transition: all 0.5s;
+  }
+ 
+  .cardcourse__link:hover::after {
+    width: 100%;
+  }
+  .cardcourse__title {
+    font-weight: 400;
+    color: black;
+    margin-left: 10px;
+  }
+  .cardcourse_title{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .cardcourse__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  .cardcourse-1 {
+    margin-bottom: 20px;
+    background: radial-gradient(white, rgb(255, 254, 254));
+  }
+  
+  .cardcourse-2 {
+      
+      margin-bottom: 20px;
+    background: radial-gradient(white, rgb(255, 254, 254));
+  }
+  
+  .cardcourse-3 {
+      margin-bottom: 20px;
+    background: radial-gradient(white, rgb(255, 254, 254));
+  }
+  /* RESPONSIVE */
+  @media (max-width: 1600px) {
+    .cardscourse {
+      justify-content: center;
+    }
+  }
+
+  .button{
+      padding: 2px 5px;
+  }
+  .button:hover{
+      background-color: turquoise;
+  }
+  .wrapper{
+    display:grid;
+    grid-template-columns: 500px;
+}
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 1rem;
+  }
+}
+

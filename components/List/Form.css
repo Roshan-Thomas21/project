@@ -1,0 +1,87 @@
+.Attendance {
+	font-family: arial, sans-serif;
+  top: -714px;
+  left: 400px;
+  width: 25cm;
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 28px;
+  left: 10cm;
+  position: relative;
+}
+.single {
+	font-family: arial, sans-serif;
+  left: 300px;
+  top: -680px;
+  width: 25cm;
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 28px;
+  
+  position: relative;
+}
+.single_attendance {
+	font-family: arial, sans-serif;
+  left: 300px;
+  top: -680px;
+  width: 25cm;
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 28px;
+  
+  position: relative;
+}
+.single_sub {
+	font-family: arial, sans-serif;
+  left: 245px;
+  top: -680px;
+  width: 20cm;
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 28px;
+  
+  position: relative;
+}
+.stud_weak {
+	font-family: arial, sans-serif;
+  left: 1060px;
+  top: -1186px;
+  width: 10cm;
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 28px;
+  
+  position: relative;
+}
+.stud_bright {
+	font-family: arial, sans-serif;
+  left: 1061px;
+  top: -1234px;
+  width: 10cm;
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 28px;
+  
+  position: relative;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(224, 240, 255);
+}
+	
+.internal {
+	font-family: arial, sans-serif;
+	width: 25cm;
+  top: -714px;
+	border: 1.5px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 14px 28px;
+	left: 10cm;
+ 	position: relative;
+  }
+  th, td {
+	padding: 5px;
+	text-align: center;    
+  }
+	

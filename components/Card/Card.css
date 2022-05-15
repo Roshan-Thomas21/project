@@ -1,0 +1,74 @@
+.counsellor_card1{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 351px;
+    top: 200px;
+    display: inline-block;
+}
+.counsellor_card2{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 630px;
+    top: 200px;
+    display: inline-block;
+}
+.counsellor_card3{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 910px;
+    top: 200px;
+    display: inline-block;
+}
+
+.counsellor_card4{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 1200px;
+    top: 200px;
+    display: inline-block;
+}
+
+.counsellor_card5{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 351px;
+    top: 450px;
+    display: inline-block;
+}
+.counsellor_card6{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 630px;
+    top: 450px;
+    display: inline-block;
+}
+.counsellor_card7{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 910px;
+    top: 450px;
+    display: inline-block;
+}
+
+.counsellor_card8{
+     position: absolute;
+    width: 225px;
+    height: 189px;
+    left: 1200px;
+    top: 450px;
+    display: inline-block;
+}
+
+.counsellor_cards {
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}

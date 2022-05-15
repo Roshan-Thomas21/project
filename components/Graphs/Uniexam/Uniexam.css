@@ -1,0 +1,50 @@
+.P-col.l4{
+    width:45.33333%;
+    
+}
+
+.P-card{
+    width:33.33333%;
+    
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.P-margin{
+    margin:10px;
+    border-radius:10px;
+}
+
+
+.P-white{
+    color:#000;
+    background-color:#fff;
+}
+
+.P-container{
+    padding:0.01em 16px;
+    border-radius: 15px;
+    background-color: white;
+    top:250px;left:100px;
+}
+.P-container:after,.P-container:before,.P-row:after,.P-row:before{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.P-margin-left{
+    margin-left:16px;
+}
+.P-margin-right{
+    margin-right:16px;
+}
+
+.chart{
+    bottom:10px;
+    margin-bottom:20px;
+}
+.P-content{
+    margin-left:10cm;
+    margin-right:auto;
+    max-width:500px;
+}

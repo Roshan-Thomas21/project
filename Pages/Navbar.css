@@ -1,0 +1,72 @@
+.Sidebar{
+    height: 100vh;
+    width: 200px;
+    background-color: rgb(251, 251, 253);
+    border-right: 1px solid var(--border-color-base);
+    margin: 0%;
+}
+
+.SidebarList{
+    height: auto;
+    width: 100%;
+    padding: 0%;
+    
+}
+.sidebarList{
+    height: auto;
+    width: 100%;
+    padding: 0%;
+    
+}
+.sidebarList .row{
+ width: 100%;
+ height: 60px;
+ list-style-type: none;
+ margin: 0%;
+ display: flex;
+ flex-direction: row;
+ color: rgb(22,98,208);
+ justify-content: center;
+ background-color: rgb(192, 192, 206);
+ align-items: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SidebarList .row{
+ width: 100%;
+ height: 60px;
+ list-style-type: none;
+ margin: 0%;
+ display: flex;
+ flex-direction: row;
+ color: rgb(22,98,208);
+ justify-content: center;
+ align-items: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.active{
+     background-color: rgb(192, 192, 206);
+}
+
+
+
+
+.SidebarList .row:hover{
+    cursor: pointer;
+    background-color: rgb(192, 192, 206);
+}
+
+
+.row #icon{
+    flex: 30%;
+    display:grid ;
+    place-items: center;
+
+}
+
+.row #title{
+    flex: 70%;
+    
+    
+}
