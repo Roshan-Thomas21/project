@@ -30,9 +30,13 @@ function Input() {
     items.map((d) => (
         set(ref(db, 'Mark1/' + d.Name), {
             Name: d.Name,
-            Attendance: d.Attendance,
-            Mark: d.Mark
-        })
+            cs201: d.cs201,
+            cs203: d.cs203,
+            cs205: d.cs205,
+            cs207: d.cs207,
+            cs209: d.cs209,
+            cs265: d.cs265,
+          })
     ))
   };
   function writeToDatabase2() {
